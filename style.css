@@ -4,7 +4,7 @@ html {
 }
 
 body{
- background-color: beige;
+ background-color: rgb(249, 246, 238);
 }
 
 
@@ -118,6 +118,7 @@ a :hover{
 .boton{
   color: white;
   background-color: black;
+  border-radius: 5px;
 }
 
 .boton:hover{
