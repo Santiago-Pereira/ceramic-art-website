@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+
+body{
+ background-color: beige;
+}
+
+
+.float{
+	position: fixed;
+ width: 60px;
+ height: 60px;
+ bottom: 100px;
+ right: 15px;
+ color: rgb(62 161 44);
+ text-align: center;
+ font-size: 76px;
+ z-index: 100;
+}
+
+
+.to-top-arrow a{
+ position: fixed;
+ width: 27px;
+ height: 66px;
+ bottom: 20px;
+ right: 47px;
+ font-size: 54px;
+ z-index: 100;
+ color: rgb(134, 186, 226);
+
+}
+
+.to-top-arrow a :hover{
+ color: rgb(12, 84, 226);
+ transition: ease-out 3s;
+ }
+
+footer a{
+  color: grey;
+}
+
+
+
+.redes-footer-container{
+ font-size: 5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ column-gap: 13px;
+}
+
+footer{
+  bottom:0;
+  width:100%;
+  height:60px;  
+}
+
+#footer-container{
+  height: 160px;
+  background: rgb(21, 21, 21);
+}
+
+.media-2{
+  margin-top: 50px;
+}
+.media-1{
+  margin-top: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(245 245 220);
+}
+
+.navbar-dark .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+ 
+}
+
+.nav-redes a{
+  color: #fff;
+  font-size: large;
+}
+
+.nav-redes a :hover{
+  color: rgb(12, 84, 226);
+  transition: ease-out 1s;
+  
+}
+
+.fa-brands{
+  margin-right: 5px;
+}
+
+
+a :hover{
+  transition: ease-out 1s;
+}
+
+.card{
+  background-color: grey;
+}
+
+.h1, h1{
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.card-img, .card-img-top:hover{
+  transform: scale(0.9);
+  transition: ease-out 4s;
+}
+
+.boton{
+  color: white;
+  background-color: black;
+}
+
+.boton:hover{
+  transform: scale(1.1);
+  transition: ease-out 4s;
+}
+
+@media only screen and (min-width: 1300px) {
+.card-margin{
+  margin-left: 7rem;
+ 
+}
+}
